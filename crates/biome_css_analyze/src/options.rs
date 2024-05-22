@@ -4,6 +4,7 @@ use crate::lint;
 
 pub type NoCssEmptyBlock =
     <lint::nursery::no_css_empty_block::NoCssEmptyBlock as biome_analyze::Rule>::Options;
+pub type NoDeclarationBlockShorthandPropertyOverrides = < lint :: nursery :: no_declaration_block_shorthand_property_overrides :: NoDeclarationBlockShorthandPropertyOverrides as biome_analyze :: Rule > :: Options ;
 pub type NoDuplicateAtImportRules = < lint :: nursery :: no_duplicate_at_import_rules :: NoDuplicateAtImportRules as biome_analyze :: Rule > :: Options ;
 pub type NoDuplicateFontNames =
     <lint::nursery::no_duplicate_font_names::NoDuplicateFontNames as biome_analyze::Rule>::Options;

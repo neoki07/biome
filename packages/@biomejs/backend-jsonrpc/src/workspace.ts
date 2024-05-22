@@ -966,6 +966,10 @@ export interface Nursery {
 	 */
 	noCssEmptyBlock?: RuleConfiguration_for_NoCssEmptyBlockOptions;
 	/**
+	 * Succinct description of the rule.
+	 */
+	noDeclarationBlockShorthandPropertyOverrides?: RuleConfiguration_for_Null;
+	/**
 	 * Disallow using a callback in asynchronous tests and hooks.
 	 */
 	noDoneCallback?: RuleConfiguration_for_Null;
@@ -2268,6 +2272,7 @@ export type Category =
 	| "lint/nursery/noConsole"
 	| "lint/nursery/noConstantMathMinMaxClamp"
 	| "lint/nursery/noCssEmptyBlock"
+	| "lint/nursery/noDeclarationBlockShorthandPropertyOverrides"
 	| "lint/nursery/noDoneCallback"
 	| "lint/nursery/noDuplicateAtImportRules"
 	| "lint/nursery/noDuplicateElseIf"

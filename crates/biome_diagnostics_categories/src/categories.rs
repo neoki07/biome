@@ -112,6 +112,7 @@ define_categories! {
     "lint/nursery/noConsole": "https://biomejs.dev/linter/rules/no-console",
     "lint/nursery/noConstantMathMinMaxClamp": "https://biomejs.dev/linter/rules/no-constant-math-min-max-clamp",
     "lint/nursery/noCssEmptyBlock": "https://biomejs.dev/linter/rules/no-css-empty-block",
+    "lint/nursery/noDeclarationBlockShorthandPropertyOverrides": "https://biomejs.dev/linter/rules/no-declaration-block-shorthand-property-overrides",
     "lint/nursery/noDoneCallback": "https://biomejs.dev/linter/rules/no-done-callback",
     "lint/nursery/noDuplicateAtImportRules": "https://biomejs.dev/linter/rules/no-duplicate-at-import-rules",
     "lint/nursery/noDuplicateElseIf": "https://biomejs.dev/linter/rules/no-duplicate-else-if",

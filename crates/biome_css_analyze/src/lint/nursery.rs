@@ -3,6 +3,7 @@
 use biome_analyze::declare_group;
 
 pub mod no_css_empty_block;
+pub mod no_declaration_block_shorthand_property_overrides;
 pub mod no_duplicate_at_import_rules;
 pub mod no_duplicate_font_names;
 pub mod no_duplicate_selectors_keyframe_block;
@@ -21,6 +22,7 @@ declare_group! {
         name : "nursery" ,
         rules : [
             self :: no_css_empty_block :: NoCssEmptyBlock ,
+            self :: no_declaration_block_shorthand_property_overrides :: NoDeclarationBlockShorthandPropertyOverrides ,
             self :: no_duplicate_at_import_rules :: NoDuplicateAtImportRules ,
             self :: no_duplicate_font_names :: NoDuplicateFontNames ,
             self :: no_duplicate_selectors_keyframe_block :: NoDuplicateSelectorsKeyframeBlock ,

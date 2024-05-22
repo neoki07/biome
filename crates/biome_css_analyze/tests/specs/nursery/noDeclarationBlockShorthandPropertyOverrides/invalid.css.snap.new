@@ -1,0 +1,12 @@
+---
+source: crates/biome_css_analyze/tests/spec_tests.rs
+assertion_line: 83
+expression: invalid.css
+---
+# Input
+```css
+a { -webkit-transition-property: opacity; -webkit-transition: opacity 1s linear; }
+
+a { -WEBKIT-transition-property: opacity; -webKIT-transition: opacity 1s linear; }
+
+```
